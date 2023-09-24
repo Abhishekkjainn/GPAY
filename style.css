@@ -1,0 +1,47 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+    background-color: rgba(31, 31, 31, 1);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Product Sans';
+    color: white;
+}
+@font-face {
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 00;
+    src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+  }
+.gpaytick{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(-80%);
+}
+.amount{
+    font-size: 2.7rem;
+    font-weight:200;
+}
+.paidto{
+    font-size: 1.5rem;
+    transform: translateY(80%);
+}
+.upiid{
+    font-size: 1rem;
+    font-weight:lighter;
+    color: rgb(213, 213, 213);
+    transform: translateY(150%);
+}
+.date{
+transform: translateY(550%);
+}
+.upitransactionid{
+    color: rgb(177, 177, 177);
+    transform: translateY(580%);
+}
