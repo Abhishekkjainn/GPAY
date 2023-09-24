@@ -38,6 +38,9 @@ body{
     color: rgb(213, 213, 213);
     transform: translateY(150%);
 }
+.rupee{
+    font-weight: 600;
+}
 .date{
 transform: translateY(550%);
 }
