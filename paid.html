@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>.</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="maincontainer">
+      <div class="gpaytick">
+        <img src="gpaytick.jpg" alt="" width="100px" />
+      </div>
+      <div class="amount">
+        <span class="rupee">&#8377;</span> &nbsp;
+        <span id="mainrupee"> 20</span>.00
+      </div>
+      <div class="paidto">Paid To <span id="paidto"> Divya Lakshmi</span></div>
+      <div class="upiid" id="upiid">divyalakshmi1535-1@okaxis</div>
+
+      <div class="date" id="datetime">September 24, 2023 7:04PM</div>
+      <div class="upitransactionid">
+        UPI Transaction ID: <span id="transactionid"> 326735180915</span>
+      </div>
+    </div>
+
+    <script>
+      document.getElementById('mainrupee').innerText =
+        localStorage.getItem('mainamount');
+      document.getElementById('paidto').innerText =
+        localStorage.getItem('paytomain');
+      document.getElementById('upiid').innerText =
+        localStorage.getItem('upiid');
+      document.getElementById('transactionid').innerText =
+        localStorage.getItem('trnsid');
+    </script>
+  </body>
+</html>

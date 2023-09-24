@@ -6,19 +6,36 @@
     <title>.</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <div class="maincontainer">
-      <div class="gpaytick">
-        <img src="gpaytick.jpg" alt="" width="100px" />
-      </div>
-      <div class="amount"><span class="rupee">&#8377;</span> &nbsp; 20.00</div>
-      <div class="paidto">Paid To <span id="paidto"> Divya Lakshmi</span></div>
-      <div class="upiid" id="upiid">divyalakshmi1535-1@okaxis</div>
+  <body class="formbody">
+    <input
+      type="number"
+      id="amountmain"
+      placeholder="ADD AMOUNT"
+      class="amountinput"
+    />
+    <input
+      type="text"
+      id="payingtomain"
+      placeholder="PAY TO :"
+      class="amountinput"
+    />
+    <input
+      type="text"
+      id="upimain"
+      placeholder="UPI ID :"
+      class="amountinput"
+    />
+    <input
+      type="text"
+      id="upitransactionmain"
+      placeholder="TRNS ID :"
+      class="amountinput"
+    />
 
-      <div class="date" id="datetime">September 24, 2023 7:04PM</div>
-      <div class="upitransactionid">
-        UPI Transaction ID: <span id="transactionid"> 326735180915</span>
-      </div>
-    </div>
+    <button type="button" class="mainsubmit" onclick="topaidpage(),savedata()">
+      Submit
+    </button>
+
+    <script src="script.js"></script>
   </body>
 </html>

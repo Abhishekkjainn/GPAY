@@ -53,3 +53,42 @@ transform: translateY(550%);
     color: rgb(177, 177, 177);
     transform: translateY(580%);
 }
+
+/*form*/
+.formbody{
+    height: 100vh;
+    width: 100vw;
+}
+.amountinput{
+    width: 80%;
+    height: 60px;
+    border: 3px solid rgba(26, 115, 233, 1);
+    border-radius: 40px;
+    background-color: transparent;
+    font-size: 1.2rem;
+    text-align: center;
+    color: rgba(26, 115, 233, 1);
+    font-family: 'Poppins';
+    font-weight: 600;
+    margin-top: 20px;
+}
+.amountinput::placeholder{
+    color: rgba(26, 115, 233, 1);
+}
+.mainsubmit{
+    width: 80%;
+    height: 60px;
+    background-color:rgba(26, 115, 233, 1) ;
+    color: rgba(31, 31, 31, 1);
+    font-weight: 600;
+    font-size: 1.2rem;
+    border: 3px solid transparent;
+    border-radius: 40px;
+    margin-top: 20px;
+}
+.mainsubmit:hover{
+    border:3px solid  rgba(26, 115, 233, 1);
+    background-color: transparent;
+    color: rgba(26, 115, 233, 1);
+    transition: 0.3s;
+}
