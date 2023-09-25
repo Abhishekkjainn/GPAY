@@ -92,3 +92,36 @@ transform: translateY(550%);
     color: rgba(26, 115, 233, 1);
     transition: 0.3s;
 }
+.last2buttons{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    bottom: 20px;
+    display: flex;justify-content: center;align-items: center;
+}
+.sharebutton{
+    width: 42%;
+    height: 33px;
+    border-radius: 40px;
+    border: 1px solid rgb(228, 228, 228);
+    display: flex;justify-content: center;align-items: center;
+    margin-right: 10px;
+}
+.sharess{
+    color: rgb(99, 214, 255);
+    font-size: 0.91rem;
+    font-weight: 500;
+    transform: translateX(6px);
+}
+.shareimage{
+    transform: translateX(-5px);
+}
+.donebutton{
+    width: 80px;
+    height: 33px;
+    border-radius: 40px;
+    background-color: rgb(99, 214, 255);
+    display: flex;justify-content: center;align-items: center;
+    color: rgba(31, 31, 31, 1);
+    font-weight: 600;
+}
