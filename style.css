@@ -108,7 +108,7 @@ transform: translateY(550%);
     margin-right: 10px;
 }
 .sharess{
-    color: rgb(99, 214, 255);
+    color: rgba(78, 199, 196, 1);
     font-size: 0.91rem;
     font-weight: 500;
     transform: translateX(6px);
@@ -120,7 +120,7 @@ transform: translateY(550%);
     width: 80px;
     height: 33px;
     border-radius: 40px;
-    background-color: rgb(99, 214, 255);
+    background-color: rgba(78, 199, 196, 1);
     display: flex;justify-content: center;align-items: center;
     color: rgba(31, 31, 31, 1);
     font-weight: 600;
