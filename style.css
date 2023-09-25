@@ -123,5 +123,5 @@ transform: translateY(550%);
     background-color: rgb(156, 209, 255);
     display: flex;justify-content: center;align-items: center;
     color: rgba(31, 31, 31, 1);
-    font-weight: 600;
+    font-weight: 400;
 }
