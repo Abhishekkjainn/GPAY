@@ -96,7 +96,7 @@ transform: translateY(550%);
     width: 100%;
     height: 80px;
     position: fixed;
-    bottom: 20px;
+    bottom: 40px;
     display: flex;justify-content: center;align-items: center;
 }
 .sharebutton{
