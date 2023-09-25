@@ -101,14 +101,14 @@ transform: translateY(550%);
 }
 .sharebutton{
     width: 42%;
-    height: 33px;
+    height: 37px;
     border-radius: 40px;
     border: 1px solid rgb(228, 228, 228);
     display: flex;justify-content: center;align-items: center;
     margin-right: 10px;
 }
 .sharess{
-    color: rgba(78, 199, 196, 1);
+    color: rgb(156, 209, 255);
     font-size: 0.91rem;
     font-weight: 500;
     transform: translateX(6px);
@@ -118,9 +118,9 @@ transform: translateY(550%);
 }
 .donebutton{
     width: 80px;
-    height: 33px;
+    height: 37px;
     border-radius: 40px;
-    background-color: rgba(78, 199, 196, 1);
+    background-color: rgb(156, 209, 255);
     display: flex;justify-content: center;align-items: center;
     color: rgba(31, 31, 31, 1);
     font-weight: 600;
