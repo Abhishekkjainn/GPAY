@@ -1,10 +1,11 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>.</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
   <body class="formbody">
     <input
@@ -32,10 +33,51 @@
       class="amountinput"
     />
 
-    <button type="button" class="mainsubmit" onclick="topaidpage(),savedata()">
+    <button type="button" class="mainsubmit" onclick="doeverything()">
       Submit
     </button>
 
+    <script src="script.js"></script>
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body class="formbody">
+    <input
+      type="number"
+      id="amountmain"
+      placeholder="ADD AMOUNT"
+      class="amountinput"
+    />
+    <input
+      type="text"
+      id="payingtomain"
+      placeholder="PAY TO :"
+      class="amountinput"
+    />
+    <input
+      type="text"
+      id="upimain"
+      placeholder="UPI ID :"
+      class="amountinput"
+    />
+    <input
+      type="text"
+      id="upitransactionmain"
+      placeholder="TRNS ID :"
+      class="amountinput"
+    />
+    <button type="button" class="mainsubmit" onclick="doeverything()">
+      Submit
+    </button>
     <script src="script.js"></script>
   </body>
 </html>
